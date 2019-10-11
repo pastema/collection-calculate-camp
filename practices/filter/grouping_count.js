@@ -3,8 +3,8 @@
 function grouping_count(collection) {
   const unique = (x, i, a) => {
     let finalValue = [];
-    let distinctValue = new Set(a); // gete unique
-    distinctValue.forEach(value => { // 
+    let distinctValue = new Set(a); 
+    distinctValue.forEach(value => { 
         let count = 0;
         a.forEach(occur =>{
             if(value == occur){
